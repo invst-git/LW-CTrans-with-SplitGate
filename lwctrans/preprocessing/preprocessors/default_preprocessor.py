@@ -182,7 +182,7 @@ class DefaultPreprocessor(object):
             scheme = configuration_manager.normalization_schemes[c]
             normalizer_class = recursive_find_python_class(join(lwctrans.__path__[0], "preprocessing", "normalization"),
                                                            scheme,
-                                                           'nnunetv2.preprocessing.normalization')
+                                                           'lwctrans.preprocessing.normalization')
             if normalizer_class is None:
                 raise RuntimeError('Unable to locate class \'%s\' for normalization' % scheme)
             normalizer = normalizer_class(use_mask_for_norm=configuration_manager.use_mask_for_norm[c],

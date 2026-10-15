@@ -1,0 +1,7 @@
+model,vs,split,n_pairs,mean_diff,median_diff,wins,losses,ties,wilcoxon_p
+ratio,baseline_50_50,val,68,-3.742,-3.027,19,47,2,6.805973386770531e-05
+ratio,baseline_50_50,test,52,-3.136,-2.66,16,36,0,0.0008872836886091404
+dynratio,baseline_50_50,val,68,-2.849,-2.269,19,46,3,5.014981643381665e-05
+dynratio,baseline_50_50,test,52,-5.278,-4.629,10,42,0,9.954842091192605e-08
+gate,baseline_50_50,val,68,2.071,1.07,43,20,5,0.0009913291075503126
+gate,baseline_50_50,test,52,4.8,3.908,41,11,0,4.632469318082196e-06

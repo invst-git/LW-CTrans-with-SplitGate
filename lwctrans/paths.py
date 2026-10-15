@@ -18,9 +18,9 @@ import os
 PLEASE READ paths.md FOR INFORMATION TO HOW TO SET THIS UP
 """
 
-os.environ['nnUNet_raw'] = '/home/wangyh/Codes/nnUNetv2/nnunetv2/data/nnUNet_raw'
-os.environ['nnUNet_preprocessed'] = '/home/wangyh/Codes/nnUNetv2/nnunetv2/data/nnUNet_preprocessed'
-os.environ['nnUNet_results'] = '/home/wangyh/Codes/LW-CTrans/results'
+
+
+
 
 nnUNet_raw = os.environ.get('nnUNet_raw')
 nnUNet_preprocessed = os.environ.get('nnUNet_preprocessed')
